@@ -196,7 +196,7 @@ while True:
         print(f"     {quantidade} Ø {dim_barra} mm c/ {esp_barra} - c = {comprimento_dobra}")
     else:
         quantidade = math.floor((l_maior*100/esp_barra))-1
-        print(f"Tamanho ta barra considerando a dobra: \n{comprimento_barra} cm \nQuantidade de Barras: \nQnt: (Lado maior / Espaçamento) - 1 \nQnt: ({l_maior*100} / {esp_barra}) - 1 \nQnt: {quantidade} barras \n\nDesenho da Barra: \n")
+        print(f"Tamanho da barra considerando a dobra: \n{comprimento_barra} cm \nQuantidade de Barras: \nQnt: (Lado maior / Espaçamento) - 1 \nQnt: ({l_maior*100} / {esp_barra}) - 1 \nQnt: {quantidade} barras \n\nDesenho da Barra: \n")
         print(f"                  {comprimento_barra} ")
         print(f"    _________________________________")
         print(f"     {quantidade} Ø {dim_barra} mm c/ {esp_barra} - c = {comprimento_barra}")
@@ -205,4 +205,5 @@ while True:
     timer(120)
 
     
+
 
