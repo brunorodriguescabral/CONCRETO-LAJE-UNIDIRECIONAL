@@ -190,7 +190,7 @@ while True:
     if DOBRA_ACO != False:
         comprimento_dobra = comprimento_barra+(area_util*2)
         quantidade = math.floor((l_maior*100/esp_barra))-1
-        print(f"Tamanho ta barra considerando a dobra: \n{comprimento_dobra} cm \nQuantidade de Barras: \nQnt: (Lado maior / Espaçamento) - 1 \nQnt: ({l_maior*100} / {esp_barra}) - 1 \nQnt: {quantidade} barras \n\nDesenho da Barra: \n")
+        print(f"Tamanho da barra considerando a dobra: \n{comprimento_dobra} cm \nQuantidade de Barras: \nQnt: (Lado maior / Espaçamento) - 1 \nQnt: ({l_maior*100} / {esp_barra}) - 1 \nQnt: {quantidade} barras \n\nDesenho da Barra: \n")
         print(f"   {area_util}             {comprimento_barra}             {area_util}")
         print(f"    |_________________________________|")
         print(f"     {quantidade} Ø {dim_barra} mm c/ {esp_barra} - c = {comprimento_dobra}")
@@ -205,4 +205,5 @@ while True:
     timer(120)
 
     
+
 
